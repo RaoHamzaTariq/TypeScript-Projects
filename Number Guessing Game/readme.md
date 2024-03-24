@@ -44,3 +44,7 @@ Contributions to this project are welcome. Feel free to submit bug fixes, featur
 - Email: raohamza6767@gmail.com
 - LinkedIn: [Rao Hamza Tariq](https://www.linkedin.com/in/rao-hamza-tariq/)
 - Twitter: [@rao_hamza_tariq](https://twitter.com/rao_hamza_tariq)
+
+## License
+
+This repository is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code for personal or commercial projects.
