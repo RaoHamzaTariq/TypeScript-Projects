@@ -4,12 +4,19 @@ Welcome to the TypeScript Projects Repository! This repository contains various 
 
 ## Projects
 
-1. **Project Name**: Simple Calculator.
+1. **Project Name**: Simple Calculator
    - **Folder**: `/Simple Calculator`
    - **Description**: A Simple Calculator with TypeScript, Node.js and Inquirer which can perform basic arithmetic operations.
    - **Features**: Basic Arthmetic Operations i.e, Addition, Subtraction, Multiplication, Division.
    - **Usage**: Process of using are written in README.md file of Simple Calculator folder.
    - **Dependencies**: List of dependencies required for the project are mentioned in README.md file of Simple Calculator folder.
+  
+2. **Project Name**: Number Guessing Game
+   - **Folder**: `/Number Guessing Game`
+   - **Description**: Number Guessing Game which take input number from the user and tell either it's guess number is wrong and right.
+   - **Features**: Generates a random number between 1 and 10 and allows the user to guess the number.
+   - **Usage**: Process of using are written in README.md file of Number Guessing Game folder.
+   - **Dependencies**: List of dependencies required for the project are mentioned in README.md file of Number Guessing Game folder.
 
 ## Usage
 
