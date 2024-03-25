@@ -1,0 +1,18 @@
+{
+  "name": "bi-structure-atm",
+  "version": "1.0.0",
+  "description": "A Simple ATM which can withdrawl and deposit the money and also check the balance",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rao Hamza Tariq",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
