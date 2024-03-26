@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let userBalance = 0;
 function checkBalance(balance) {
@@ -8,9 +9,9 @@ function checkBalance(balance) {
         console.log("You don't have any money in your account.");
     }
 }
-function withdraw(balance) {
+async function withdraw(balance) {
     if (balance >= 100) {
-        inquirer
+        await inquirer
             .prompt([
             {
                 message: "Enter the amount you want to withdraw:",
@@ -24,7 +25,7 @@ function withdraw(balance) {
                 amountWithdraw <= balance &&
                 amountWithdraw < 20000) {
                 const transactionTax = 15;
-                balance -= amountWithdraw + transactionTax;
+                balance -= (amountWithdraw + transactionTax);
                 console.log(`Your new balance is $${balance}\n`);
             }
             else if (amountWithdraw > balance) {
@@ -36,16 +37,15 @@ function withdraw(balance) {
             else {
                 console.log("You can't withdraw money greater than twenty thousand dollars.\n");
             }
-            atm(); // Prompt the user again
+            showMenu();
         });
     }
     else {
         console.log("Your Balance is less than 100 dollars\n");
-        atm(); // Prompt the user again
     }
 }
-function deposit(balance) {
-    inquirer
+async function deposit(balance) {
+    await inquirer
         .prompt([
         {
             message: "Please enter the deposit amount:",
@@ -56,13 +56,14 @@ function deposit(balance) {
         .then((depositInput) => {
         const amountDeposit = depositInput.amountDeposit;
         balance += amountDeposit;
+        userBalance = balance; // Update the global userBalance variable
         console.log(`Your new balance is $${balance}\n`);
-        atm(); // Prompt the user again
+        showMenu();
     });
 }
-function atm() {
+async function atm() {
     console.log("Welcome to the ATM");
-    inquirer
+    await inquirer
         .prompt([
         { message: "Enter your username: ", type: "input", name: "userName" },
         { message: "Enter your pin number: ", type: "number", name: "userPin" },
@@ -73,16 +74,12 @@ function atm() {
         }
         else {
             console.log("Please enter valid username and pin\n");
-            atm(); // Prompt the user again
+            atm();
         }
     });
 }
-function showMenu() {
-    console.log("\n1. Check Balance");
-    console.log("2. Withdrawal");
-    console.log("3. Deposit");
-    console.log("4. Exit\n");
-    inquirer
+async function showMenu() {
+    await inquirer
         .prompt([
         { message: "Enter your option (1/2/3/4): ", type: "list", name: "userChoice", choices: ["Check Balance", "Withdrawal", "Deposit", "Exit"] },
     ])
