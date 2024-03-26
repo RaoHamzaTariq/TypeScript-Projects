@@ -1,9 +1,10 @@
 {
   "name": "bi-structure-atm",
   "version": "1.0.0",
-  "description": "A Simple ATM which can withdrawl and deposit the money and also check the balance",
+  "description": "ATM",
   "main": "index.js",
   "type": "module",
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
