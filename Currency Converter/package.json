@@ -1,0 +1,19 @@
+{
+  "name": "bi-structure-currency-converter",
+  "version": "1.0.0",
+  "description": "Currency Converter is a simple command-line tool written in TypeScript that allows users to convert money from one currency to another.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rao Hamza Tariq",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
