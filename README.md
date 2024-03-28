@@ -23,7 +23,7 @@ Welcome to the TypeScript Projects Repository! This repository contains various 
    - **Usage**: Instructions for setting up and running the ATM project are provided in the README.md file of the ATM folder.
   
 4. **Project Name**: Todo List App
-   - **Folder**: `/Todo List App`
+   - **Folder**: `/Todo List`
    - **Description**: Console based Todo list application allows users to add tasks with due dates and priorities, view the task list, and remove tasks from the list.
    - **Features**: Add a new task, Remove a task, Check the task list, User-Friendly Interface.
    - **Usage**: Instructions for setting up and running the Todo List App are provided in the README.md file of the Todo List App folder.
