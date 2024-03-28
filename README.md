@@ -27,6 +27,12 @@ Welcome to the TypeScript Projects Repository! This repository contains various 
    - **Description**: Console based Todo list application allows users to add tasks with due dates and priorities, view the task list, and remove tasks from the list.
    - **Features**: Add a new task, Remove a task, Check the task list, User-Friendly Interface.
    - **Usage**: Instructions for setting up and running the Todo List App are provided in the README.md file of the Todo List App folder.
+  
+5. **Project Name**: Currency Converter
+   - **Folder**: `/Currency Converter`
+   - **Description**: Console based Currency Converter application written in TypeScript that allows users to convert money from one currency to another.
+   - **Features**: Supports multiple currencies including USD, EUR, AUD, GBP, INR, PKR, and KWD.
+   - **Usage**: Instructions for setting up and running the Currency Converter App are provided in the README.md file of the Currency Converter folder.
 
 
 ## Usage
