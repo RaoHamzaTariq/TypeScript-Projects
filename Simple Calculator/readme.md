@@ -21,6 +21,7 @@ npx bi-structure-simple-calculator
 ### Usage in TypeScript Projects
 To use this calculator in your TypeScript project, follow these steps:
 
+
 1. Install the package using npm:
    ```
    npm install bi-structure-simple-calculator
